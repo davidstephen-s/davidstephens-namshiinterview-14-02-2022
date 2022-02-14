@@ -18,7 +18,7 @@ export default function Header(props) {
 </svg>
     </span>
  <h4>
-    Shopping App
+    E-commerce app
  </h4>
   </div>
 </nav>
