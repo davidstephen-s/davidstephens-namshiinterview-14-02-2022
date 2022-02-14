@@ -70,7 +70,7 @@ const App = () => {
     </div>
     : <div className="loader">   <Loader
          type="Puff"
-         color="#00BFFF"
+         color="#f30000"
          height={300}
          width={200}
          
