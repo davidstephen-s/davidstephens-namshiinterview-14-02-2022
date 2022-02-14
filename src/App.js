@@ -56,15 +56,16 @@ const App = () => {
              return (data? 
    <div>
        <Header countCartItems={cartItems.length}></Header>
+<Basket
+          cartItems={cartItems}
+          onAdd={onAdd}
+          onRemove={onRemove}></Basket>
        <div class="container-fluid">
       
                <div class="row mt-5">
                
        <Main data={data} onAdd={onAdd}></Main>
-       <Basket
-          cartItems={cartItems}
-          onAdd={onAdd}
-          onRemove={onRemove}></Basket>
+       
     </div>
     </div>
     </div>
