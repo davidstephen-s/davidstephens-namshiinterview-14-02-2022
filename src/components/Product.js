@@ -11,7 +11,7 @@ export default function Product(props) {
 
     <p class="card-text">{product.title}</p>
       <p class="card-text">${product.id}</p>
-        <button type="button" class="btn btn-primary" onClick={() => onAdd(product)}>Add To Cart</button>
+        <button type="button" class="btn btn-danger" onClick={() => onAdd(product)}>Add To Cart</button>
 </div>
 </div>
     
